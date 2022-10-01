@@ -52,6 +52,23 @@ Hey Fellas ! Need your attention. There are issues with the backend code for thi
 - Try cloning the repo and resolve the issue before commiting changes.
 - After you think the program is good to go. Make pull/merge requests.
 
-#Bug-report
+
+##  Contribution Guidelines
+
+Please ensure your pull request adheres to the following guidelines:
+
+- Start the Name with a capital.
+- Check your spelling and grammar.
+
+Steps to be followed:
+1. Fork this repo
+2. Edit `CONTRIBUTERS.md` file
+3. Add your Name also link your github profile
+4. Make pull request
+
+
+
+
+## Bug-report
 -You may face the issue while you try to post the data to the server (mailchimp here).
 </div>
