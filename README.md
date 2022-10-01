@@ -64,11 +64,17 @@ Steps to be followed:
 1. Fork this repo
 2. Edit `CONTRIBUTERS.md` file
 3. Add your Name also link your github profile
-4. Make pull request
+4. Make pull request (Make atleast of 2 PRs)
 
 
 
 
 ## Bug-report
 -You may face the issue while you try to post the data to the server (mailchimp here).
+
+
+## Note regarding Mailchimp authorization
+-The API key that has been inluded in the code file may not work, it could be unauthorized access if you try with it.
+-Create your own API key while resolving the issue locally after cloning the project.
+-After the issue has been resolved, you can remove the API keys and your auth in the code, leave it blank and make pull-request.
 </div>
