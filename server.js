@@ -41,11 +41,11 @@ app.post('/', function(req, res){
     } //js data object  , convert into string that is in the form of json
     // so that the following mailchimp server  can understand the data recieved
     const jsonData = JSON.stringify(data);
-    const url =  "https://us5.api.mailchimp.com/3.0/92deb53399";
+    const url =  "https://us5.api.mailchimp.com/3.0/92deb53399"; //append your own API key at the end of the URL instead of existing one (replace your own API key with '92deb53399')
                               //the main url going to come from endpoint"
                               const options ={
                                 method : "POST",
-                                auth : "kiran:fe77965a8c9067a8c7399e40504fff55-us5"          //this is the basic authentication
+                                auth : ""          //this is the basic authentication
                                 // in which the key will be auth and corresponding value will be in the
                                 // form of string of rule having 'username:password'
                                 // username could be any of your choice
